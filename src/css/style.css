@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body { background: #fff; font: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+
+img { display: block; }
+
+a { text-decoration: none; color: #fff; cursor: pointer; }
+
+.btn { background-color: #01acac; cursor: pointer; color: #fff; border: none; text-transform: uppercase; transition: all 0.2s linear; }
+.btn:hover { background-color: #7ee675; transform: scale(1.1); }
+
+.main-wrapper { margin: 0 auto; max-width: 1453px; }
+.main-wrapper header { background-image: url(../img/header_background_v1.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; height: 920px; }
+.main-wrapper header .top-wrapper { max-width: 1453px; display: grid; grid-template-columns: 1fr 1fr; }
+.main-wrapper header .top-wrapper nav { display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 20px; text-transform: uppercase; font-size: 15px; }
+.main-wrapper header .top-wrapper nav a { transition: all 0.2s linear; height: 10px; }
+.main-wrapper header .top-wrapper nav a:hover { color: #7ee675; transform: scale(1.1); }
+.main-wrapper header section { padding-top: 252px; text-transform: uppercase; text-align: center; color: #fff; }
+.main-wrapper header section h1 { padding-bottom: 27px; }
+.main-wrapper header section .btn-top { padding: 12px 68px; }
+.main-wrapper main { width: 960px; margin: 0 auto; }
+.main-wrapper main .toolbar { text-align: end; margin-top: 25px; }
+.main-wrapper main .toolbar input { margin-right: 9px; padding: 8px; width: 200px; }
+.main-wrapper main .post-list { margin-top: 21px; display: grid; }
+.main-wrapper main .post-list h1 { text-transform: uppercase; text-align: end; font-size: 26px; }
+.main-wrapper main .post-list article { display: grid; grid-template-columns: 297px 1fr; text-align: left; padding: 8px; background-color: #efefef; margin-bottom: 27px; }
+.main-wrapper main .post-list article .post { margin-top: 5px; }
+.main-wrapper main .post-list article .post .post-description { color: #e90303; }
+.main-wrapper main .post-list article .post .post-description:after { display: block; background-color: #607d8b; content: ""; margin: 5px 0 5px; width: 100%; height: 1px; }
+.main-wrapper main .post-list article .post h3 { text-transform: uppercase; color: #01acac; }
+.main-wrapper main .post-list article .post p { margin-bottom: 21px; width: 637px; }
+.main-wrapper main .post-list article .btn-post { color: #fff; margin-left: 436px; padding: 11px; width: 198px; border: none; }
+.main-wrapper main .about { margin-top: 32px; display: grid; }
+.main-wrapper main .about div { margin-top: 5px; }
+.main-wrapper main .about div h1 { text-transform: uppercase; text-align: end; font-size: 26px; margin-right: 14px; }
+.main-wrapper main .about div p { text-align: left; padding-left: 16px; padding-bottom: 20px; }
+.main-wrapper main .about div img { padding-left: 16px; padding-right: 16px; }
+.main-wrapper main .contact-form { margin-top: 62px; display: grid; }
+.main-wrapper main .contact-form h1, .main-wrapper main .contact-form h4 { text-transform: uppercase; text-align: end; }
+.main-wrapper main .contact-form h1 { font-size: 25px; }
+.main-wrapper main .contact-form .form-subscribe { display: grid; }
+.main-wrapper main .contact-form .form-subscribe .user-input { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 17px; text-align: end; margin-top: 24px; }
+.main-wrapper main .contact-form .form-subscribe .user-input p { color: #01acac; }
+.main-wrapper main .contact-form .form-subscribe .user-input p input { transition: all 0.2s linear; border: 2px solid #607d8b; width: 100%; height: 45px; }
+.main-wrapper main .contact-form .form-subscribe .user-message { margin-top: 20px; text-align: end; }
+.main-wrapper main .contact-form .form-subscribe .user-message p { color: #01acac; }
+.main-wrapper main .contact-form .form-subscribe .user-message p .your-message { width: 100%; height: 120px; border: 2px solid #607d8b; transition: all 0.2s linear; }
+.main-wrapper main .contact-form .form-subscribe .your-name:focus:invalid, .main-wrapper main .contact-form .form-subscribe .your-email:focus:invalid, .main-wrapper main .contact-form .form-subscribe .your-message:focus:invalid { outline: 2px solid #e90303; border: none; background-color: #ffdddd; }
+.main-wrapper main .contact-form .form-subscribe .your-name:focus:valid, .main-wrapper main .contact-form .form-subscribe .your-email:focus:valid, .main-wrapper main .contact-form .form-subscribe .your-message:focus:valid { outline: 2px solid #7ee675; border: none; background-color: #7ee67593; }
+.main-wrapper main .contact-form .form-subscribe .btn-submit { width: 200px; margin-top: 12px; margin-left: 759px; padding: 12px; }
+.main-wrapper footer { margin: 9px; }
+.main-wrapper footer button { position: fixed; top: 85%; right: 5%; height: 50px; width: 50px; border: none; cursor: pointer; border-radius: 50%; font-size: 10px; background-color: #01acac; }
+.main-wrapper footer button img { margin: 0 auto; }
